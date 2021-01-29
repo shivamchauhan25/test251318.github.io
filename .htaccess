@@ -1,0 +1,16 @@
+## EXPIRES CACHING ##
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType assets/css/font-awesome.min.css "access 10 minutes"
+ExpiresByType assets/css/main.min.css "access 10 minutes"
+ExpiresByType assets/js/breakpoints.min.js "access 10 minutes"
+ExpiresByType assets/js/browser.min.js "access 10 minutes"
+ExpiresByType assets/js/jquery.min.js  "access 10 minutes"
+ExpiresByType assets/js/main.js "access 10 minutes"
+ExpiresByType assets/favicon.ico "access 10 minutes"
+ExpiresByType images/about.jpg "access 10 minutes"
+ExpiresByType images/ig_blur.jpg "access 10 minutes"
+ExpiresByType images/vid-bg.mp4 "access 10 minutes"
+ExpiresDefault "access 10 minutes"
+</IfModule>
+## EXPIRES CACHING ##
